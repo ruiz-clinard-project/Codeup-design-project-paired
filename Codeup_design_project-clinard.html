@@ -11,14 +11,26 @@
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
     <style>
-        body{
+
+        *{
+
+        }
+
+        body {
             background-color: #f0f0f0;
         }
-        #cir1 p{
+
+        .container{
+            width: 80%;
+            font-size: .8rem;
+        }
+
+        #cir1 p {
             margin-top: 40%;
             font-size: 18px;
         }
-        #cir1>.badge-dark{
+
+        #cir1 > .badge-dark {
             background-color: #e6563B;
             border: 5px solid white;
             height: 100px;
@@ -27,11 +39,13 @@
             padding: 0px;
 
         }
-        #cir2 p{
+
+        #cir2 p {
             margin-top: 40%;
             font-size: 18px;
         }
-        #cir2>.badge-dark{
+
+        #cir2 > .badge-dark {
             background-color: #eb9d3a;
             border: 5px solid white;
             height: 100px;
@@ -40,11 +54,13 @@
             padding: 0px;
 
         }
-        #cir3 p{
+
+        #cir3 p {
             margin-top: 40%;
             font-size: 18px;
         }
-        #cir3>.badge-dark{
+
+        #cir3 > .badge-dark {
             background-color: #7cb06c;
             border: 5px solid white;
             height: 100px;
@@ -53,11 +69,13 @@
             padding: 0px;
 
         }
-        #cir4 p{
+
+        #cir4 p {
             margin-top: 40%;
             font-size: 18px;
         }
-        #cir4>.badge-dark{
+
+        #cir4 > .badge-dark {
             background-color: #00aba9;
             border: 5px solid white;
             height: 100px;
@@ -65,142 +83,295 @@
             border-radius: 50% 50%;
             padding: 0px;
         }
-
-        /*#pic1 p{*/
-            /*margin-top: 40%;*/
-            /*font-size: 10px;*/
-        /*}*/
-        /*#pic1>.badge-dark{*/
-            /*background-color: #e6563B;*/
-            /*border: none;*/
-            /*height: 5px;*/
-            /*width: 5px;*/
-            /*border-radius: 50px 50px;*/
-
-        /*}*/
-
-        .FT{
-            font-size: 10px;
-        }
-
-        .L{
-            display: inline;
-            border: none;
-            border-radius: 50px 50px;
-            font-size: 10px;
-            text-align: right;
-        }
         .D{
             background-color: #e6563B;
+            border: none;
+            height: 90%;
+            width: 10%;
+            border-radius: 50% 50%;
+            margin-left: 5%;
+        }
+        .OD{
+            background-color: #eb9d3a;
+            border: none;
+            height: 90%;
+            width: 10%;
+            border-radius: 50% 50%;
+            margin-left: 5%;
+        }
+        .S{
+            background-color: #7cb06c;
+            border: none;
+            height: 90%;
+            width: 10%;
+            border-radius: 50% 50%;
+            margin-left: 5%;
+        }
+        .H{
+            background-color: #00aba9;
+            border: none;
+            height: 90%;
+            width: 10%;
+            border-radius: 50% 50%;
+            margin-left: 5%;
+        }
+        .D1{
+            background-color: #e6563B;
+            border: none;
+            height: 100%;
+            width: 22%;
+            border-radius: 50% 50%;
+            margin-right: 3%;
+        }
+        .OD1{
+            background-color: #eb9d3a;
+            border: none;
+            height: 100%;
+            width: 22%;
+            border-radius: 50% 50%;
+            margin-right: 3%;
+        }
+        .S1{
+            background-color: #7cb06c;
+            border: none;
+            height: 100%;
+            width: 22%;
+            border-radius: 50% 50%;
+            margin-right: 3%;
+        }
+        .H1{
+            background-color: #00aba9;
+            border: none;
+            height: 100%;
+            width: 22%;
+            border-radius: 50% 50%;
+            margin-right: 0%;
         }
 
-        #lasttxt{
-            font-family: 'Anton', sans-serif;
+        .pics img{
+            height: 80%;
+            width: 90%;
+            border: 6px solid #e6e6e6;
+            border-radius: 5px;
         }
+        .pics1 img{
+            height: 100%;
+            width: 100%;
+            border: 6px solid #e6e6e6;
+            border-radius: 5px;
+        }
+
+
+        .left{
+            padding-left: 0;
+            padding-right: 3%;
+            font-size: 1.1em;
+            font-family: 'Anton', sans-serif;;
+        }
+        .left img{
+            height: 100%;
+            width: 100%;
+            border: 2px solid #e6e6e6;
+            border-radius: 5px;
+        }
+
+        .SF{
+            font-size: .6rem;
+        }
+        .twitter img{
+            height: 70%;
+            width: 70%;
+
+        }
+
 
 
     </style>
 
 
 </head>
-<body>
+<body class="col-lg">
+
 
 <!--Still need to add the whole TOP NAV-->
-<br>
+
 <br>
 <br>
 
-<div class="container" style="font-family: 'Anton', sans-serif;
-">
-    <div class="row">
+<div class="jumbotron jumbotron-fluid d-none d-md-block">
+    <div class="container" id="my-container">
+        <h1 class="display-4"></h1>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+    <div class="row" style="font-family: 'Anton', sans-serif;">
         <div class="col" style="text-align: center">
             <h1>VISUAL DESIGN & WEB DEVELOPMENT </h1>
             <br>
             <h1>FROM PARK CITY, UTAH</h1>
         </div>
     </div>
+    <br>
+    <br>
 
     <!--Need to figure out small screen spacing for Icons-->
 
-    <div class="row mx-auto" style="text-align: center">
+    <div class="row mx-auto mb-5" style="text-align: center; font-family: 'Anton', sans-serif;">
         <div class="col-md-2 col-lg-2 col-xl-2"></div>
-        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2" id="cir1"><span class="badge badge-pill badge-dark"><p>Design</p></span></div>
-        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2" id="cir2"><span class="badge badge-pill badge-dark"><p>Develop</p></span></div>
-        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2" id="cir3"><span class="badge badge-pill badge-dark"><p>Support</p></span></div>
-        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2" id="cir4"><span class="badge badge-pill badge-dark"><p>Host</p></span></div>
+        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 my-2" id="cir1"><span class="badge badge-pill badge-dark"><p>Design</p></span>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 my-2" id="cir2"><span class="badge badge-pill badge-dark"><p>Develop</p></span>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 my-2" id="cir3"><span class="badge badge-pill badge-dark"><p>Support</p></span>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 col-lg-2 col-xl-2 my-2" id="cir4"><span class="badge badge-pill badge-dark"><p>Host</p></span>
+        </div>
         <div class="col-md-2 col-lg-2 col-xl-2"></div>
     </div>
 
     <hr class="d-none d-sm-block">
 
-</div>
-
-<!--Container 2 is below which will hide the right column once Medium and below then only one picture once to XS-->
 
 
-<div class="container">
+<!--Container 2 is below which will hide the right column once Medium and below, then only one picture once to XS-->
 
-    <!--The first row-->
+<br>
+<br>
 
-    <div class="row">
-        <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none" style="text-align: center">SELECTED WORK</div>
-        <div class="col-md-8 col-lg-8 col-xl-8 d-none d-sm-none d-md-block">SELECTED WORK</div>
-        <div class="col-md-4 col-lg-4 col-xl-4 d-none d-sm-none d-md-block ">THE LAST</div>
-    </div>
+<!--<div class="container">-->
 
-    <br>
 
-    <!--the second row    -->
 
-    <div class="row">
-
-        <!--Left side-->
-        <div class="col">
-
-            <!--Left side row for XS only-->
-
-            <div class="row d-block d-sm-none">
-
-                <div class="col-12 " style="text-align: center"><img src="assets/images/apple-ipad.jpg" height="300" width="500">FEATURED PRODUCT</div>
+        <!--Left side column-->
+        <div class="row d-block pics1">
+            <div class="col-12 col-sm-12 d-md-none d-lg-none d-xl-none mb-4" style="text-align: center">SELECTED WORK
             </div>
-
-
-
-
-
-
-            <!--EVERYTHING BELOW WILL DISAPPEAR ONCE ON THE XS SIZING FOR THE SCREEN -->
-
-
-
-
-
-
-            <!--Left side row above XS-->
-
-
-            <div class="row FT">
-
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block"><img src="assets/images/apple-ipad.jpg" height="100" width="200" id="pic1">FEATURED PRODUCT<p class="D L">D</p><p class="OD L">D</p><p class="S L">S</p><p class="H L">H</p></div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block"><img src="assets/images/macbook.jpg" height="100" width="200"/>FEATURED PRODUCT</div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block"><img src="assets/images/man.jpg" height="100" width="200"/>FEATURED PRODUCT</div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block"><img src="assets/images/security.jpg" height="100" width="200"/>FEATURED PRODUCT</div>
+            <div class="col-12 d-block d-sm-none">
+                <img src="assets/images/apple-ipad.jpg"></div>
+            <div class="row mx-auto">
+                <div class="col-6 d-block d-sm-none">FEATURED PRODUCTS</div>
+                <div class="col-6 d-block d-sm-none" style="text-align: right"><span class="badge D">D</span><span class="badge OD">D</span><span class="badge S">S</span><span class="badge H">H</span>  </div>
             </div>
-
         </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
 
-
-        <!--right side-->
-        <div class="col col-md-4 col-lg-4 col-xl-4 d-none d-sm-none d-md-block">
+            <!--Left side column first row-->
             <div class="row">
-                <div class="col-md-12 col-lg-12 col-xl-12" id="lasttxt" >IMG -- THE ADMIN BAR AND ABSOLUTE POSITIONING</div><br><br>
-                <div class="col-12" id="lasttxt"  >IMG -- NIBBLER WEBSITE TESTING</div><br><br>
-                <div class="col-12" id="lasttxt"  >IMG -- HOW TO GET GOOGLE TO LIKE YOU</div><br><br>
-                <div class="col-12">IMG TWEET -- LAST TWEET</div><br> <br><small style="font-family: 'Abel', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam dignissimos dolor eaque eligendi et illum incidunt ipsum iste iure, laborum laudantium nisi nostrum, odit porro possimus quia saepe velit.</small>
+                <br>
+                <div class="col-md-8 col-lg-8 col-xl-8 d-none d-sm-none d-md-block SF">SELECTED WORK</div>
             </div>
+            <!--Left side column second row-->
+            <!--For XS Screen-->
+
+
+                <!--EVERYTHING BELOW WILL DISAPPEAR ONCE IN THE XS SIZING FOR THE SCREEN -->
+                <!--Left side row above XS-->
+
+                    <div class="row pics SF">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block my-4">
+                            <div class="row">
+                                <img src="assets/images/apple-ipad.jpg">
+                            </div>
+                            <div class="row">
+                                <div class="col-auto mr-auto mt-1">FEATURED PRODUCTS</div>
+                                <div class="col-auto mr-auto mt-1" style="text-align: right"><span class="badge D1">D</span><span class="badge OD1">D</span><span class="badge S1">S</span><span class="badge H1">H</span></div>
+                            </div>
+                        </div>
+
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block my-4">
+                                <div class="row">
+                                    <img src="assets/images/macbook.jpg">
+                                </div>
+                            <div class="row">
+                                <div class="col-auto mr-auto mt-1">FEATURED PRODUCTS</div>
+                                <div class="col-auto mr-auto mt-1" style="text-align: right"><span class="badge D1">D</span><span class="badge OD1">D</span><span class="badge S1">S</span><span class="badge H1">H</span></div>
+                            </div>
+                            </div>
+
+
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block">
+                                <div class="row">
+                                    <img class="img-responsive" src="assets/images/man.jpg">
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto mr-auto mt-1">FEATURED PRODUCTS</div>
+                                    <div class="col-auto mr-auto mt-1" style="text-align: right"><span class="badge D1">D</span><span class="badge OD1">D</span><span class="badge S1">S</span><span class="badge H1">H</span></div>
+                                </div>
+                            </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-none d-sm-block">
+                                    <div class="row">
+                                        <img src="assets/images/google-search.jpg">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-auto mr-auto mt-1">FEATURED PRODUCTS</div>
+                                        <div class="col-auto mr-auto mt-1" style="text-align: right"><span class="badge D1">D</span><span class="badge OD1">D</span><span class="badge S1">S</span><span class="badge H1">H</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!--right side-->
+        <div class="col-4 d-none d-sm-none d-md-block pics2" style="text-align: left">
+
+            <div class="row mb-4 SF">THE LAST</div>
+
+            <div class="row">
+                <div class="col-4 mt-1 left">
+                    <img src="assets/images/mobile-phone.jpg"/></div>
+                <div class="col-8 left">
+                    THE ADMIN BAR AND ABSOLUTE POSITIONING
+                </div>
+            </div>
+
+                            <br>
+
+            <div class="row">
+                <div class="col-4 left">
+                    <img src="assets/images/head.jpg"/></div>
+                <div class="col-8 left">
+                    NIBBLER AWESOME WEBSITE TESTING
+                </div>
+            </div>
+
+                            <br>
+
+            <div class="row">
+                <div class="col-4 left">
+                    <img src="assets/images/ipad.jpg"/></div>
+                <div class="col-8 left">
+                    HOW TO GET GOOGLE TO LIKE YOU
+                </div>
+            </div>
+
+                                 <br>
+
+            <div class="row mt-4">
+                <div class="col-2 twitter px-0">
+                    <img src="assets/images/twitter-logo_22-removebg.png">
+                </div>
+                <div class="col-10 SF px-0 pt-1">
+                    LAST TWEET
+                </div>
+                <div class="col-12 px-0">
+                    <small style="font-family: 'Abel', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam dignissimos dolor eaque eligendi et illum incidunt ipsum iste iure, laborum laudantium.</small>
+                </div>
+            </div>
+
+                              <br>
+
         </div>
     </div>
 </div>
+
+
+                <br>
 
 
 </body>
