@@ -1,112 +1,56 @@
-body{
+.iconw {
+    color: #f0f0f0;
+    line-height: 130px;
+    font-size: 32px;
+    font-family: Anton;
+}
+body, .bkg {
     background-color: #f0f0f0;
 }
-nav{
-    width:100%;
+h1,h2,h3,h4,h5,h6, .Anton {
+    font-family: Anton;
 }
-.main{
-    font-family: 'Anton', sans-serif
+p,a,.abel {
+    color: black;
+    font-family: abel;
 }
-.jumbotron{
-    margin-top: 10%;
+
+#logo {
+    height: 105px;
+    width: 105px;
+}
+.logo-container {
     background-color: white;
-    height: 10px;
+    margin-top: 4em;
+    height: 60px;
+    line-height: 75px;
 }
-.jumbotron img{
-    height: 20%;
-    width: 20%;
-    position: absolute;
-    left: 38%;
-    top: 2%;
+.header-bg {
+    height: 60px;
 }
-#cir1 p{
-    margin-top: 40%;
-    font-size: 18px;
+li {
+    line-height: 60px;
 }
-#cir1>.badge-dark{
-    background-color: #e6563B;
-    border: 5px solid white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px 50px;
-    padding: 0px;
-
-}
-#cir2 p{
-    margin-top: 40%;
-    font-size: 18px;
-}
-#cir2>.badge-dark{
-    background-color: #eb9d3a;
-    border: 5px solid white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px 50px;
-    padding: 0px;
-
-}
-#cir3 p{
-    margin-top: 40%;
-    font-size: 18px;
-}
-#cir3>.badge-dark{
-    background-color: #7cb06c;
-    border: 5px solid white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px 50px;
-    padding: 0px;
-
-}
-#cir4 p{
-    margin-top: 40%;
-    font-size: 18px;
-}
-#cir4>.badge-dark{
-    background-color: #00aba9;
-    border: 5px solid white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50% 50%;
-    padding: 0px;
+nav img{
+    line-height: 60px;
+    position: relative;
+    bottom: 21px;
+    z-index: 5;
+    margin: auto;
 }
 
-/*#pic1 p{*/
-/*margin-top: 40%;*/
-/*font-size: 10px;*/
-/*}*/
-/*#pic1>.badge-dark{*/
-/*background-color: #e6563B;*/
-/*border: none;*/
-/*height: 5px;*/
-/*width: 5px;*/
-/*border-radius: 50px 50px;*/
-
-/*}*/
-
-.FT{
-    font-size: 10px;
+@media screen and (max-width: 992px) {
+    .smaller {
+        margin-top: 1em;
+    }
 }
-
-
-/*this will make the images scale with the page
-.FT img{
-    height: 85%;
-    width: 94%;
-}
-*/
-
-.L{
-    display: inline;
-    border: none;
-    border-radius: 50px 50px;
-    font-size: 10px;
-    text-align: right;
-}
-.D{
-    background-color: #e6563B;
-}
-
-#lasttxt{
-    font-family: 'Anton', sans-serif;
+@media screen and (max-width: 575px){
+    .larger{
+        display: none;
+        position: absolute;
+        top: -50px;
+    }
+    .logo-container {
+        background-color: transparent;
+    }
 }
