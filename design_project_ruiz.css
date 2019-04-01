@@ -10,6 +10,7 @@ body {
 #cir1 p {
     margin-top: 40%;
     font-size: 18px;
+<<<<<<< HEAD
 }
 
 #cir1 > .badge-dark {
@@ -98,6 +99,96 @@ body {
     border-radius: 50% 50%;
     margin-left: 5%;
 }
+=======
+}
+
+#cir1 > .badge-dark {
+    background-color: #e6563B;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    padding: 0px;
+}
+
+#cir2 p {
+    margin-top: 40%;
+    font-size: 18px;
+}
+
+#cir2 > .badge-dark {
+    background-color: #eb9d3a;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    padding: 0px;
+}
+
+#cir3 p {
+    margin-top: 40%;
+    font-size: 18px;
+}
+
+#cir3 > .badge-dark {
+    background-color: #7cb06c;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    padding: 0px;
+}
+
+#cir4 p {
+    margin-top: 40%;
+    font-size: 18px;
+}
+
+#cir4 > .badge-dark {
+    background-color: #00aba9;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50% 50%;
+    padding: 0px;
+}
+
+.D {
+    background-color: #e6563B;
+    border: none;
+    height: 90%;
+    width: 10%;
+    border-radius: 50% 50%;
+    margin-left: 5%;
+}
+
+.OD {
+    background-color: #eb9d3a;
+    border: none;
+    height: 90%;
+    width: 10%;
+    border-radius: 50% 50%;
+    margin-left: 5%;
+}
+
+.S {
+    background-color: #7cb06c;
+    border: none;
+    height: 90%;
+    width: 10%;
+    border-radius: 50% 50%;
+    margin-left: 5%;
+}
+
+.H {
+    background-color: #00aba9;
+    border: none;
+    height: 90%;
+    width: 10%;
+    border-radius: 50% 50%;
+    margin-left: 5%;
+}
+>>>>>>> 1a1b4f62fb6af9df82cb5d5e7cf3b55238e3935a
 a, .text {
     color: black;
     font-family: abel;
@@ -212,4 +303,8 @@ nav img{
     height: 70%;
     width: 70%;
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1a1b4f62fb6af9df82cb5d5e7cf3b55238e3935a
