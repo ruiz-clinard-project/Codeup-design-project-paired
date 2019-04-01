@@ -1,16 +1,5 @@
-.iconw {
-    color: #f0f0f0;
-    line-height: 130px;
-    font-size: 32px;
-    font-family: Anton;
-}
-body, .bkg {
-    background-color: #f0f0f0;
-}
-h1,h2,h3,h4,h5,h6, .Anton {
-    font-family: Anton;
-}
-p,a,.abel {
+
+a,.abel {
     color: black;
     font-family: abel;
 }
@@ -39,17 +28,18 @@ nav img{
     margin: auto;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
     .smaller {
         margin-top: 1em;
     }
 }
-@media screen and (max-width: 575px){
-    .larger{
+@media screen and (max-width: 575px) {
+    .larger {
         display: none;
         position: absolute;
         top: -50px;
     }
+
     .logo-container {
         background-color: transparent;
     }
